@@ -1,0 +1,177 @@
+:root {
+    --theme-color: rgb(123, 209, 217);
+    --backgroud-color: rgba(0, 0, 4, 0.795);
+    --main-color: rgb(25, 77, 92);
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    background-color: rgba(233, 234, 249, 0.844);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroud-color);
+
+}
+
+header h1 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px 100px;
+    background-color: var(--theme-color);
+    font-size: 40px;
+    color: var(--backgroud-color);
+}
+
+header nav {
+    padding-right: 70px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+ header nav ul li a {
+    padding: 2px;
+    color: var(--theme-color);
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: solid var(--theme-color) 3px;
+
+ }
+
+  .background {
+    position: relative;
+    height: 200px;
+    background-image: url(../images/stripes.jpg)
+    
+ }
+
+ .background h2 {
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: var(--theme-color);
+    font-size: 30px;
+    color: var(--backgroud-color);
+ }
+
+ main {
+    margin-top: 20px;
+ }
+
+ .layout{
+    display: flex;
+    color: var(--main-color);
+    margin-bottom: 20px;
+
+ }
+
+ .leftside {
+    width: 300px;
+    /* margin-right: 20px; */
+    padding-right: 20px;
+    font-size: 40px;
+    text-align: right;
+    
+
+ }
+
+ .rightside {
+    flex: 1;
+    border-left: solid 4px var(--main-color);
+    padding: 0px 100px 20px 40px;
+ }
+
+ .content-box {
+    display: flex;
+
+ }
+ 
+
+ #surf {
+    height: 300px;
+    background-image: url(../images/surf-report.jpg);
+
+ }
+
+ #led-wall {
+    height: 125px;
+    background-image: url(../images/led-wall.jpg);
+    flex: 1;
+    margin-right: 15px;
+ }
+
+ #calculator {
+    height: 125px;
+    background-image: url(../images/calculator.jpg);
+    flex: 1;
+ }
+
+ #pastel-puzzles {
+    height: 125px;
+    background-image: url(../images/pastel-puzzles.jpg);
+    flex: 1;
+    margin-right: 15px;
+ }
+
+#run-buddy {
+    height: 125px;
+    background-image: url(../images/run-buddy.jpg);
+    background-repeat: no-repeat;
+    flex: 1;
+}
+
+ .content {
+    position: relative;
+    border: solid 5px var(--theme-color);
+    margin-top: 15px;
+ }
+
+ .item {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 10px;
+    background-color: var(--theme-color);
+    color: var(--main-color);
+ }
+
+ .item-title {
+    font-size: 25px;
+    font-weight: normal;
+ }
+
+ .item-subtitle {
+    font-size: 12px;
+ }
+
+ footer ul {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+ }
+
+ footer ul li {
+    display: inline-block;
+ }
+
+ footer ul li a {
+    padding: 2px 5px;
+    font-size: 20px;
+    color: var(--main-color);
+    text-decoration: none;
+    border-bottom: solid 3px var(--main-color);
+ }
