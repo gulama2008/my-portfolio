@@ -156,12 +156,12 @@ header nav ul li {
     border-bottom: solid 3px var(--main-color);
  }
 
- .blurimg {
+ .blur-img {
    max-width: 100%;
    opacity: 0.3;
  }
 
- .blurimg:hover {
+ .blur-img:hover {
    transition: 0.3s;
    opacity: 1;
  }
