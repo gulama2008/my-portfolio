@@ -87,42 +87,31 @@ header nav ul li {
    text-align: right; 
  }
  
- 
-
  .rightside {
    display: flex;
-   /* flex-direction: column; */
    width: 75%;
    border-left: solid 4px var(--main-color);
    padding: 0px 100px 20px 40px;
  }
 
- /* .self-intro {
-   display: flex;
-   flex-direction: column;
+ .cards {
+   flex-wrap: wrap;
    justify-content: space-between;
- } */
-
- /* .leftside-item {
-    text-align: right;
- } */
+ }
 
  #surf {
-    height: 100%;;
-    /* background-image: url(../images/surf-report.jpg); */
+    width: 100%;;
 
+ }
+
+ .smallbox {
+    height: 125px;
+    width: 48%;
  }
 
  #led-wall, #pastel-puzzles{
     margin-right: 15px;
  }
-
-#run-buddy {
-    height: 125px;
-    /* background-image: url(../images/run-buddy.jpg); */
-    background-repeat: no-repeat;
-    flex: 1;
-}
 
  .content {
     position: relative;
@@ -165,12 +154,6 @@ header nav ul li {
     color: var(--main-color);
     text-decoration: none;
     border-bottom: solid 3px var(--main-color);
- }
-
- .smallbox {
-   /* display: flex; */
-   height: 125px;
-   width: 500px;
  }
 
  .blurimg {
