@@ -138,17 +138,22 @@ header nav ul li {
     font-size: 12px;
  }
 
- footer ul {
-    margin: 30px 0px;
-    display: flex;
-    justify-content: space-around;
+ .footer {
+   justify-content: center;
  }
 
- footer ul li {
+ .footer-list {
+    margin: 30px 0px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+ }
+
+ .footer-list li {
     display: inline-block;
  }
 
- footer ul li a {
+ .footer-list li a {
     padding: 2px 5px;
     font-size: 20px;
     color: var(--main-color);
