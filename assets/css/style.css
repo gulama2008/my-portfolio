@@ -80,41 +80,35 @@ header nav ul li {
  }
 
  .leftside {
-   display: flex;
-   flex-direction: column;
-    width: 250px;
-    /* margin-right: 20px; */
-    padding-right: 20px;
-    font-size: 40px;  
+   width: 25%;
+   /* margin-right: 20px; */
+   padding-right: 20px;
+   font-size: 40px; 
+   text-align: right; 
  }
  
  
 
  .rightside {
    display: flex;
-   flex-direction: column;
-    flex: 1;
-    border-left: solid 4px var(--main-color);
-    padding: 0px 100px 20px 40px;
+   /* flex-direction: column; */
+   width: 75%;
+   border-left: solid 4px var(--main-color);
+   padding: 0px 100px 20px 40px;
  }
 
- .leftside-item {
-    text-align: right;
- }
-
-
- .content-box {
-    display: flex;
-
- }
-
- .piclink {
+ /* .self-intro {
    display: flex;
- }
- 
+   flex-direction: column;
+   justify-content: space-between;
+ } */
+
+ /* .leftside-item {
+    text-align: right;
+ } */
 
  #surf {
-    height: 300px;;
+    height: 100%;;
     /* background-image: url(../images/surf-report.jpg); */
 
  }
