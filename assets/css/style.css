@@ -107,17 +107,20 @@ header nav ul li {
     height: 300px;
  }
 
+ /* make the image still cover the whole figure box when resizing the browser  */
  .surf-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
  }
 
+ /* make two small images in a line into one flexbox */
  .card-inline {
     display: flex;
     justify-content: space-between;
  }
 
+ /* set the height and width for each small image */
  .smallbox {
     height: 125px;
     width: 50%;
@@ -127,6 +130,7 @@ header nav ul li {
     margin-right: 15px;
  }
 
+ /* set css style for the small title on each image */
  .item {
     position: absolute;
     left: 0;
@@ -169,11 +173,13 @@ header nav ul li {
     border-bottom: solid 3px var(--main-color);
  }
 
+ /* make the images blur while mouse not on them */
  .blur-img {
    width: 100%;
    opacity: 0.3;
  }
 
+ /* make the images no blur while mouse on them */
  .blur-img:hover {
    transition: 0.3s;
    opacity: 1;
