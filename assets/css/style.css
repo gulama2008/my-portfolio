@@ -103,7 +103,8 @@ header nav ul li {
  }
  
  #surf {
-    width: 100%;
+   /* NOTE: create media query to add this width in on small device only  */
+    /* width: 100%; */
     height: 300px;
  }
 
@@ -206,5 +207,8 @@ header nav ul li {
    .footer-list li {
       padding: 10px;
    }
-   
+   #surf {
+      width: 100%;
+   }
+
  }
